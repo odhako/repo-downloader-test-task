@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "repo-downloader"
+version = "0.1.0"
+description = ""
+authors = ["odhako <odhako@gmail.com>"]
+readme = "README.md"
+#packages = [{include = "repo_downloader"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+aiohttp = "^3.8.4"
+gitpython = "^3.1.31"
+requests = "^2.28.2"
+tqdm = "^4.65.0"
+aiofiles = "^23.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
